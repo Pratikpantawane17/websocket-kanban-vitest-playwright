@@ -7,7 +7,7 @@ import Select from 'react-select';
 import Column from './Column'; // Adjust the path based on your file structure
 
 
-const socket = io('http://localhost:5000');
+const socket = io('https://websocket-kanban-vitest-playwright-xy84.onrender.com');
 
 const columns = ['To Do', 'In Progress', 'Done'];
 

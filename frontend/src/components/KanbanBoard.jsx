@@ -4,7 +4,7 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
 import io from 'socket.io-client';
 import Select from 'react-select';
-import Column from './Column'; // Adjust the path based on your file structure
+import Column from './Column'; 
 
 
 const socket = io('https://websocket-kanban-vitest-playwright-xy84.onrender.com');
